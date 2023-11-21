@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Login to your account</title>
+    <title>Вход в аккаунт</title>
     <meta charset="UTF-8">
     <meta http-equiv="XA-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,24 +16,24 @@
         <form action="" method="post">
             <div class="form-header">
                 <h2>Sign In</h2>
-                <p>Login to MyChat</p>
+                <p>Войти в Chat</p>
             </div>
             <div class="form-group">
-                <label>Email</label>
+                <label>Адрес электронной почты</label>
                 <input type="email" class="form-control" name="email" placeholder="example@gmail.com" 
                 autocomplete="off" required>
             </div>
             <div class="form-group">
-                <label>Password</label>
-                <input type="password" class="form-control" name="pass" placeholder="Password" 
+                <label>Пароль</label>
+                <input type="password" class="form-control" name="pass" placeholder="Пароль" 
                 autocomplete="off" required>
             </div>
-            <div class="small">Forgot password?<a href="forgot_pass.php">Click Here</a></div><br>
+            <div class="small">Забыл пароль?<a href="forgot_pass.php">Восстановить</a></div><br>
             <div class="form-group">
-                <button type="submit" class="btn btn-primary btn-block btn-lg" name="sign_in">Sign in</button>
+                <button type="submit" class="btn btn-primary btn-block btn-lg" name="sign_in">Войти</button>
             </div>
             <!--<?php //include("signin_user.php"); ?> -->
         </form>
-        <div class="text-center-small" style="color:#67428B;">Don't have an account?<a href="signup.php">Create one</a></div>
+        <div class="text-center-small" style="color:#67428B;">Нет аккаунта?<a href="signup.php">Создать</a></div>
 </body>
 </html>
